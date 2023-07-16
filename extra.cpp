@@ -1,3 +1,5 @@
-idfhios
-fjhuisdf
-kdfhviou
+#include<stdio.h>
+int main()
+{
+    printf("hello");
+}
