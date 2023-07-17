@@ -35,44 +35,44 @@ int main() {
             cout<<"enter quntity:"<<endl;
             cin>>quntity1;
             Cost1=dhosa*quntity1;
-            //  cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            //  cout<<"dhosa"<<"\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
+             cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+             cout<<"dhosa"<<"\t""\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
             break;
          case 2:
             cout<<"enter quntity:"<<endl;
             cin>>quntity2;
             Cost2=chesedhosa*quntity2;
-            // cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            // cout<<"chese dhosa"<<"\t"; cout<<quntity2<<"\t""\t"; cout<<Cost2<<endl;
+            cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+            cout<<"chese dhosa"<<"\t"; cout<<quntity2<<"\t""\t"; cout<<Cost2<<endl;
             break;   
             
          case 3:
             cout<<"enter quntity:"<<endl;
             cin>>quntity3;
             Cost3=puf*quntity3;
-            // cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            // cout<<"puf"<<"\t"<<"\t"; cout<<quntity3<<"\t""\t"; cout<<Cost3<<endl;
+            cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+            cout<<"puf"<<"\t"<<"\t"; cout<<quntity3<<"\t""\t"; cout<<Cost3<<endl;
             break;  
          case 4:
             cout<<"enter quntity:"<<endl;
             cin>>quntity4;
             Cost4=burger*quntity4;
-            // cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            // cout<<"burger"<<"\t"<<"\t"; cout<<quntity4<<"\t""\t"; cout<<Cost4<<endl;
+            cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+            cout<<"burger"<<"\t"<<"\t"; cout<<quntity4<<"\t""\t"; cout<<Cost4<<endl;
             break;  
          case 5:
             cout<<"enter quntity:"<<endl;
             cin>>quntity5;
             Cost5=pizza*quntity5;
-            // cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            // cout<<"pizza"<<"\t"<<"\t"; cout<<quntity5<<"\t""\t"; cout<<Cost5<<endl;
+            cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+            cout<<"pizza"<<"\t"<<"\t"; cout<<quntity5<<"\t""\t"; cout<<Cost5<<endl;
             break;  
          case 6:
             cout<<"enter quntity:"<<endl;
             cin>>quntity6;
             Cost6=sendvich*quntity6;
-            // cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            // cout<<"sendwich"<<"\t"; cout<<quntity6<<"\t""\t"; cout<<Cost6<<endl;
+            cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+            cout<<"sendwich"<<"\t"; cout<<quntity6<<"\t""\t"; cout<<Cost6<<endl;
             break;  
          case 7:
             break;
@@ -102,9 +102,6 @@ int main() {
    }if(Cost6>0)
    {
        cout<<"sendvich"<<"\t"; cout<<quntity6<<"\t""\t"; cout<<Cost6<<endl;
-   }else
-   {
-       cout<<"wrong"<<endl;
    }
 
    totalCost=Cost1+Cost2+Cost3+Cost4+Cost5+Cost6;

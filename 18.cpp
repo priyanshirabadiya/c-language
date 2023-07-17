@@ -36,7 +36,7 @@ int main() {
             cin>>quntity1;
             Cost1=dhosa*quntity1;
             //  cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-            //  cout<<"dhosa"<<"\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
+            //  cout<<"dhosa"<<"\t""\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
             break;
          case 2:
             cout<<"enter quntity:"<<endl;
@@ -83,29 +83,29 @@ int main() {
    } while(choice != 7);
     cout << "\nCustomer name : "<<n<<endl;
    cout << "Customer mobile no. : "<<m<<endl;
-   cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-   if(Cost1>0)
-   {
-        cout<<"dhosa"<<"\t"<<"\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
-   }if(Cost2>0)
-   {
-       cout<<"chese dhosa"<<"\t"; cout<<quntity2<<"\t""\t"; cout<<Cost2<<endl;
-   }if(Cost3>0)
-   {
-       cout<<"chese"<<"\t"<<"\t"; cout<<quntity3<<"\t""\t"; cout<<Cost3<<endl;
-   }if(Cost4>0)
-   {
-       cout<<"burger"<<"\t"<<"\t"; cout<<quntity4<<"\t""\t"; cout<<Cost4<<endl;
-   }if(Cost5>0)
-   {
-        cout<<"pizza"<<"\t"<<"\t"; cout<<quntity5<<"\t""\t"; cout<<Cost5<<endl;
-   }if(Cost6>0)
-   {
-       cout<<"sendvich"<<"\t"; cout<<quntity6<<"\t""\t"; cout<<Cost6<<endl;
-   }else
-   {
-       cout<<"wrong"<<endl;
-   }
+    cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
+        if(Cost1>0)
+       {
+         cout<<"dhosa"<<"\t"<<"\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
+    }if(Cost2>0)
+    {
+        cout<<"chese dhosa"<<"\t"; cout<<quntity2<<"\t""\t"; cout<<Cost2<<endl;
+    }if(Cost3>0)
+    {
+        cout<<"chese"<<"\t"<<"\t"; cout<<quntity3<<"\t""\t"; cout<<Cost3<<endl;
+    }if(Cost4>0)
+    {
+        cout<<"burger"<<"\t"<<"\t"; cout<<quntity4<<"\t""\t"; cout<<Cost4<<endl;
+    }if(Cost5>0)
+    {
+         cout<<"pizza"<<"\t"<<"\t"; cout<<quntity5<<"\t""\t"; cout<<Cost5<<endl;
+    }if(Cost6>0)
+    {
+        cout<<"sendvich"<<"\t"; cout<<quntity6<<"\t""\t"; cout<<Cost6<<endl;
+    }else
+    {
+                cout<<"wrong"<<endl;
+                 }
 
    totalCost=Cost1+Cost2+Cost3+Cost4+Cost5+Cost6;
 
