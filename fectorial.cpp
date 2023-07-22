@@ -24,10 +24,10 @@ class derived :public base
            
         
     
-};
+}t;
 int main()
 {
-    derived t;
+    // derived t;
     t.setn();
     t.getn();
 }

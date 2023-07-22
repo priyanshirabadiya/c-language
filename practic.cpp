@@ -16,10 +16,10 @@ class derived :public base{
         cout<<"number is:"<<n<<endl;
     }
 
-};
+}t;
 int main()
 {
-    derived t;
+    // derived t;
      t.setN();
      t.getN();
 }
