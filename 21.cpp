@@ -21,10 +21,10 @@ class Base{
         t.h=h+n.h;
         return t;
     }
-};
+}a,b,c;
 int main()
 {
-    Base b,a,c;
+    // Base b,a,c;
     b.setdata(3,3,3);
     cout<<"value of base a:"<<b.getdata()<<endl;
     a.setdata(4,4,4);
